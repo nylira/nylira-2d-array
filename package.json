@@ -1,0 +1,21 @@
+{
+  "name": "nylira-2d-array",
+  "version": "0.1.0",
+  "description": "Make a quick 2d array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@91.121.116.55:nylira-2d-array"
+  },
+  "keywords": [
+    "array",
+    "2d",
+    "multidimensional",
+    "grid"
+  ],
+  "author": "Peng Zhong",
+  "license": "MIT"
+}
