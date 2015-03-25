@@ -12,7 +12,6 @@ function TwoDimensionalArray(height, width) {
   return output
 }
 
-console.log(new TwoDimensionalArray(10,10))
 module.exports = TwoDimensionalArray
 
 }())

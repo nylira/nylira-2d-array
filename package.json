@@ -1,6 +1,6 @@
 {
   "name": "nylira-2d-array",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Make a quick 2d array.",
   "main": "index.js",
   "scripts": {
