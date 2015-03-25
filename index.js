@@ -1,17 +1,18 @@
 (function(){
 'use strict'
 
-function TwoDArray(x, y) {
+function TwoDimensionalArray(height, width) {
   var output = []
-  for(var i=0; i < x; i++) {
-    output[i] = []
-    for(var j=0; j < y; j++) {
-      output[i].push(0)
+  for(var y=0; y < height; y++) {
+    output[y] = []
+    for(var x=0; x < width; x++) {
+      output[y][x] = 0
     }
   }
   return output
 }
 
-module.exports = TwoDArray
+console.log(new TwoDimensionalArray(10,10))
+module.exports = TwoDimensionalArray
 
 }())
